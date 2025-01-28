@@ -1,4 +1,5 @@
 {
+  "dialect": "postgresql",
     "out": "./src/db/migrations",
     "schema": "./src/db/schema.ts",
     "connectionString": "${DATABASE_URL}"
