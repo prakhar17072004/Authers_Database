@@ -12,8 +12,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     }
   } else if (req.method === "POST") {
     try {
-      const { auther_name, email } = req.body;
-      const result = await db.insert(authers).values({ auther_name, email }).returning();
+      const { auther_name, email,bio } = req.body;
+      const result = await db.insert(authers).values({ auther_name, email,bio }).returning();
       res.status(201).json(result[0]);
     } catch (error) {
       res.status(500).json({ error: "Failed to insert data" });
