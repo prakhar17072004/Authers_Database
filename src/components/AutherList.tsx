@@ -21,7 +21,7 @@ const AutherList: React.FC = () => {
 
   const fetchAuthers = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/authers');
+      const response = await fetch('/api/authers');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -38,7 +38,7 @@ const AutherList: React.FC = () => {
   };
   const fetchBooks = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/books');
+      const response = await fetch('/api/books');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
