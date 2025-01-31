@@ -34,12 +34,12 @@ export default function BooksPage() {
   };
   useEffect(() => {
     
-fetchAuthers();
+
 fetchBooks();
     
   }, []);
 
-  console.log(authers);
+  
   console.log(books);
 
   if (loading) {
@@ -53,13 +53,9 @@ fetchBooks();
   return (
     <div>
   <h1 className="text-center bg-slate-900 text-white">Author List</h1>
-  <ul className="grid grid-cols-3 gap-4 p-4">
-    {authers.map((author) => (
-      <li
-        key={author.id}
-        className="border rounded-lg p-4 bg-white shadow-md flex flex-col items-start"
-      >
-        <span className="font-semibold text-gray-800">Authors Name:{author.auther_name}</span>
+  
+    
+        
         <ul>
           {books.filter((books)=>books.auther_id===author.id).map((books)=>(
             <li key={books.id}>
@@ -70,11 +66,9 @@ fetchBooks();
           ))}
         </ul>
         
-        <span className="text-gray-600"> Authors Eamil:{author.email}</span>
-        <span className=" text-slate-950"> Auther Bio:{author.bio}</span>
-      </li>
-    ))}
-  </ul>
+        
+    ))
+  
 </div>
 
   );
