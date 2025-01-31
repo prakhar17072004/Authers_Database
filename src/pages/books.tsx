@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import "../app/globals.css"
+import Navbar from '@/components/Navbar';
 
 
 interface BOOKS {
@@ -52,22 +54,27 @@ fetchBooks();
 
   return (
     <div>
-  <h1 className="text-center bg-slate-900 text-white">Author List</h1>
+ <Navbar/>
+  <h1 className="text-center bg-slate-900 text-white">Books List</h1>
   
     
         
-        <ul>
-          {books.filter((books)=>books.auther_id===author.id).map((books)=>(
-            <li key={books.id}>
+        <div>
+        <ul className="grid grid-cols-3 gap-4 p-4">
+          {books.map((books)=>(
+            <li key={books.id} className="border rounded-lg p-4 bg-white shadow-md flex flex-col items-start">
               
-              <span className="text-gray-600 flex">Books Written:{books.books_name}</span>
+              <span className="text-gray-600 flex">Authers_id: {books.auther_id}</span>
+              <span className="text-gray-600 flex">Books Name: {books.books_name}</span>
+              
 
             </li>
           ))}
         </ul>
+        </div>
         
         
-    ))
+    
   
 </div>
 

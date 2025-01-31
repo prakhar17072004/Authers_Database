@@ -6,7 +6,7 @@ import React from 'react'
 function Navbar() {
   return (
     <div  className='flex justify-between max-w-[1250px] ml-[200px] pt-4 pb-8 '>
-        <Link href="/home" >
+        <Link href="/" >
         <div className='font-semibold'>
             <h1>AUTHER.COM</h1>
         </div></Link>
