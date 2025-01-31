@@ -15,7 +15,7 @@ const Index: React.FC = () => {
        
        </div>
        <Link href="/home">
-       <AutherList/>
+       {/* <AutherList/> */}
        {/* <Dashboard/> */}
        </Link>
        
