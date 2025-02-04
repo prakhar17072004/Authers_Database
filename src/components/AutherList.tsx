@@ -85,7 +85,7 @@ fetchBooks();
           {books.filter((books)=>books.auther_id===author.id).map((books)=>(
             <li key={books.id}>
               
-              <span className="text-gray-600 flex">Books Written:{books.books_name}</span>
+              <span className="text-gray-700 flex">Books Written:{books.books_name}</span>
 
             </li>
           ))}
