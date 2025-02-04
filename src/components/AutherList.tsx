@@ -80,7 +80,7 @@ fetchBooks();
         key={author.id}
         className="border rounded-lg p-4 bg-white shadow-md flex flex-col items-start"
       >
-        <span className="font-semibold text-gray-800">Authors Name:{author.auther_name}</span>
+        <span className="font-semibold text-gray-900">Authors Name:{author.auther_name}</span>
         <ul>
           {books.filter((books)=>books.auther_id===author.id).map((books)=>(
             <li key={books.id}>
