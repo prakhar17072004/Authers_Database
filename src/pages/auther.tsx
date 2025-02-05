@@ -63,7 +63,7 @@ export default function Authers()  {
               <span className="font-semibold text-gray-800">Authors Name:{author.auther_name}</span>
               
               
-              <span className="text-gray-700"> Authors Email:{author.email}</span>
+              <span className="text-slate-700"> Authors Email:{author.email}</span>
               <span className=" text-slate-850"> Auther Bio:{author.bio}</span>
             </li>
           ))}
