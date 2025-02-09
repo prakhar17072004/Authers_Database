@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+jiimport React, { useEffect, useState } from 'react';
 import "../app/globals.css"
 import Navbar from '@/components/Navbar';
 
@@ -65,7 +65,7 @@ fetchBooks();
             <li key={books.id} className="border rounded-lg p-4 bg-white shadow-md flex flex-col items-start">
               
               <span className="text-gray-600 flex">Authers_id: {books.auther_id}</span>
-              <span className="text-gray-600 flex">Books Name: {books.books_name}</span>
+              <span className="text-gray-700 flex">Books Name: {books.books_name}</span>
               
 
             </li>
