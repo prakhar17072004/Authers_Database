@@ -10,9 +10,9 @@ function Navbar() {
         <div className='font-semibold'>
             <h1>AUTHER.COM</h1>
         </div></Link>
-       <div className='flex space-x-12 justify-evenly'>
+       <div className='flex space-x-16 justify-evenly'>
        <Link href="/home">
-       <div className='font-semib hover:underline  cursor-pointer'>
+       <div className='font-medium hover:underline  cursor-pointer'>
             Home
         </div></Link>
         <Link href="/auther">
