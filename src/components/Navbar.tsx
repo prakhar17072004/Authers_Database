@@ -12,7 +12,7 @@ function Navbar() {
         </div></Link>
        <div className='flex space-x-12 justify-evenly'>
        <Link href="/home">
-       <div className='font-semibold hover:underline  cursor-pointer'>
+       <div className='font-semib hover:underline  cursor-pointer'>
             Home
         </div></Link>
         <Link href="/auther">
