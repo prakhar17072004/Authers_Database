@@ -1,5 +1,5 @@
-jijiimport React, { useEffect, useState } from 'react';
-import "../app/globals.css"
+import React, { useEffect, useState } from 'react';
+import "../app/globals.css";
 import Navbar from '@/components/Navbar';
 
 
