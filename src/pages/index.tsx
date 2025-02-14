@@ -11,7 +11,7 @@ const Index: React.FC = () => {
     
         <div >
        
-       <div className='bg-slate-700 text-center'>
+       <div className='bg-slate-800 text-center'>
        
        
        </div>
