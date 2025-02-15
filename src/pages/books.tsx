@@ -55,7 +55,7 @@ fetchBooks();
   return (
     <div>
  <Navbar/>
-  <h1 className="text-center bg-slate-900 text-white">Books List</h1>
+  <h1 className="text-center bg-gray-900 text-white">Books List</h1>
   
     
         
