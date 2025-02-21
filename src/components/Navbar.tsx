@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div  className='flex justify-between max-w-[1250px] ml-[200px] pt-4 pb-8 '>
         <Link href="/" >
-        <div className='font-semibold'>
+        <div className='font-bold'>
             <h1>AUTHER.COM</h1>
         </div></Link>
        <div className='flex space-x-12 justify-evenly'>
