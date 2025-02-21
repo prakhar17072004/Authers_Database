@@ -13,8 +13,8 @@ function Cards() {
             <h2>Auther Name:<span>Jai shanker prashad</span></h2>
             <h2>Books Name:<span></span></h2>
             </div>
-            <div className='bg-slate-400 rounded-3xl'>
-            <div className='m-12 bg-cyan-800 rounded-full text-xl'>
+            <div className='bg-slate-500 rounded-3xl'>
+            <div className='m-12 bg-cyan-700 rounded-full text-xl'>
             <Image src={pic} alt ="pic" className=" p-4 mx-auto"/>
             </div>
             <h2>Auther Name:<span>Jai shanker prashad</span></h2>
