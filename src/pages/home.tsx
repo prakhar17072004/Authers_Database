@@ -95,7 +95,7 @@ export default function Home() {
           </ul>
           
           <span className="text-gray-700"> Authors Email:{author.email}</span>
-          <span className=" text-slate-850"> Auther Bio:{author.bio}</span>
+          <span className=" text-slate-800"> Auther Bio:{author.bio}</span>
         </li>
       ))}
     </ul>
