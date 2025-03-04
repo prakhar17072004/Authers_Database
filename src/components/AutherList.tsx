@@ -73,7 +73,7 @@ fetchBooks();
 
   return (
     <div>
-  <h1 className="text-center bg-slate-900 text-white">Author List</h1>
+  <h1 className="text-center bg-slate-950 text-white">Author List</h1>
   <ul className="grid grid-cols-3 gap-4 p-4">
     {authers.map((author) => (
       <li
