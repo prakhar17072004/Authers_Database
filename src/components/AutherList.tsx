@@ -74,7 +74,8 @@ fetchBooks();
   return (
     <div>
   <h1 className="text-center bg-slate-950 text-white">Author List</h1>
-  <ul className="grid grid-cols-3 gap-4 p-4">
+  <ul className="grid grid-cols-3 gap-5
+    p-4">
     {authers.map((author) => (
       <li
         key={author.id}
