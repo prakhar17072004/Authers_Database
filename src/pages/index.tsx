@@ -12,7 +12,7 @@ const Index: React.FC = () => {
         <div >
        
        <div className='bg-slate-9
-         00 text-center'>
+         50 text-center'>
        
        
        </div>
