@@ -53,7 +53,7 @@ export default function Authers()  {
         return (
           <div>
             <Navbar/>
-        <h1 className="text-center bg-slate-800 text-white">Author List</h1>
+        <h1 className="text-center bg-slate-900 text-white">Author List</h1>
         <ul className="grid grid-cols-3 gap-4 p-4">
           {authers.map((author) => (
             <li
@@ -64,7 +64,7 @@ export default function Authers()  {
               
               
               <span className="text-slate-700"> Authors Email:{author.email}</span>
-              <span className=" text-slate-850"> Auther Bio:{author.bio}</span>
+              <span className=" text-slate-950"> Auther Bio:{author.bio}</span>
             </li>
           ))}
         </ul>
