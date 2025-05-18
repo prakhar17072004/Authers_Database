@@ -76,7 +76,7 @@ export default function Home() {
     return (
       <div>
         <Navbar/>
-    <h1 className="text-center bg-slate-900 text-white">Author and Books </h1>
+    <h1 className="text-center bg-slate-800 text-white">Author and Books </h1>
     <ul className="grid grid-cols-3 gap-4 p-4">
       {authers.map((author) => (
         <li
